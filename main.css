@@ -7,7 +7,7 @@ body{
 }
 header{
     height:100vh;
-    background:url('images/header.jpg') fixed;
+    background:url('header.jpg') fixed;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -92,7 +92,7 @@ header{
 #about .pic{
 
     height:600px;
-    background:url('images/kelly-sikkema-Rr1BnoLVsNM-unsplash.jpg') fixed;
+    background:url('kelly-sikkema-Rr1BnoLVsNM-unsplash.jpg') fixed;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
