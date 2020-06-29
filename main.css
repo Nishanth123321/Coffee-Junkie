@@ -1,0 +1,131 @@
+body{
+    font-family:'Indie Flower', cursive;
+
+}
+.links{
+    float:right;
+}
+header{
+    height:100vh;
+    background:url('images/header.jpg') fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-center{
+    height:100vh;
+    color:whitesmoke;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+
+
+}
+.banner-underline{
+
+    width:300px;
+    border: 3px solid #f15025;
+    margin: 0px auto 20px auto;
+
+}
+.banner-center a{
+
+    font-size:30px;
+    width:300px;
+    margin:0px auto;
+    display:inline-block;
+    border:3px solid whitesmoke;
+    text-decoration:none;
+    border-radius: 20px;
+}
+
+.banner-center a:hover, .banner-center a:focus{
+
+    background-color: whitesmoke ;
+    color:#f15025;
+}
+.title{
+    margin:20px 0;
+
+}
+
+.title-underline{
+
+    width:150px;
+    border: 3px solid #f15025;
+    margin: 0px auto 10px auto;
+
+}
+
+#skills{
+
+    padding:40px;
+    color:#203142;
+    margin-bottom:10px;
+    
+}
+
+#skills .fa{
+    font-size:100px;
+    margin-bottom:10px;
+
+}
+#skills a{
+
+    margin-bottom:20px ;
+    background-color:#F15025;
+    color:whitesmoke;
+    font-size:40px;
+
+}
+
+#skills a:hover{
+    background-color:#CED0CE;
+
+}
+
+#about{
+    background:#2d3142;
+
+}
+#about .pic{
+
+    height:600px;
+    background:url('images/kelly-sikkema-Rr1BnoLVsNM-unsplash.jpg') fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-bottom:600px solid transparent;
+    border-left:100px solid #2d3142;
+
+
+}
+#about .box{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+.icons .fa{
+    font-size:100px;
+    color:blue;
+    margin:0 7px;
+
+}
+#contact{
+    margin:30px auto;
+    
+}
+.navbar a{
+    color:#f15025;
+}
+.footer{
+    background:#2d3142;
+    color:whitesmoke;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
